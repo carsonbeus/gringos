@@ -1,0 +1,44 @@
+/* Common styles */
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+/* footer styles */
+
+.footer {
+    background-color: rgba(25, 56, 119, 0.92);
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed, sans-serif";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.footer > .logo-footer img {
+    width: 180px;
+    height: 100%;
+/* filter brightness  */
+    opacity: 0.5;
+    
+}
+
+.social-media-icons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+
+.footer-phone-hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

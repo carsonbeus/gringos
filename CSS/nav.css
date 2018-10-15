@@ -1,0 +1,132 @@
+body {
+    margin: 0px;    
+}
+
+/* left column  */
+
+
+.left-column > .hours-address {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 17px;
+    color: #cbcbcb;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+}
+
+.navigation-wrapper > .left-column > .hours-address > .hours {
+    font-size: 13px;
+}
+
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper .left-column > .icon {
+    margin-right: 15px;
+}
+
+.navigation-wrapper > .left-column > .icon i {
+    color: #cbcbcb;
+    font-size: 2em;
+}
+
+.navigation-wrapper {
+    height: 190px;
+    background-color: rgba(25, 56, 119, 0.92);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+.links-wrapper > .nav-link a {
+     font-family: 'Ubuntu Condensed', sans-serif;
+     color: white;
+}
+
+.navigation-wrapper > .center-column > .banner-image img {
+    width: 300px;
+    text-align: center;
+    margin-right: 89px;
+
+}
+
+.navigation-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Center Column these two below are what give animation to my home, inventory 
+about and content  */
+
+.links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+/* Right column styles */
+.navigation-wrapper > .right-column {
+    color: #cbcbcb;
+    display: flex;
+    align-items: center;
+}
+.navigation-wrapper > .right-column >.phone-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.navigation-wrapper > .right-column >.phone-wrapper a {
+    margin-right: 5px;
+    color: #cbcbcb;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.5;
+}
+
+.navigation-wrapper > .right-column >.phone-wrapper a:hover {
+    color: #cea135;
+}
+
+.navigation-wrapper > .right-column > .contact-icon {
+        margin-left: 10px;
+
+}
+
+.navigation-wrapper > .right-column > .contact-icon a {
+    color: #cbcbcb;
+    transition: 0.5;
+    font-size: 35px;
+
+}
+
+.navigation-wrapper > .right-column > .contact-icon a:hover {
+    color: #cea135
+}
+
+
+

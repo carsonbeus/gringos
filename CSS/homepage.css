@@ -1,0 +1,96 @@
+/* Styles for the hero section */
+
+/* style for the image */
+
+.hero-section {
+        background-image: url(../images/spicytacos.png);
+        padding: 100px;
+        height: 450px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+/* style for the headings ontop of the tacos picture */
+
+.hero-section > .top-heading {
+    padding: 1px 20px;
+    background-color: rgba(245, 98, 12, 0.865);
+    color: #cbcbcb;
+    width: 340px;
+    border-radius: 2px;
+}
+
+.hero-section > .bottom-heading {
+    background-color: rgba(25, 56, 119, 0.92);
+    color: #cbcbcb;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 310px;
+    border-radius: 2px;
+}
+
+/* Features section styles */
+.features-section {
+    height: 400px;
+    background-color: rgba(245, 98, 12, 0.865);
+    border-top: 10px solid #e4e4e4;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+
+    /* shadowing for a box */
+
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+/* creating the hover buttons in flexbox and css grid */
+
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid #111111;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 2.5em;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) {
+    font-size: 1.2em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+
+/* create a letter spacing animation when hovering */
+
+.features-section > .columns-wrapper > .column :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+
+/* end letter spacing when hovering */
+
+.features-section > .columns-wrapper > .column :nth-child(3) {
+    letter-spacing: 2px;
+}
+
+/* end of hover buttons */
+
